@@ -25,7 +25,7 @@ let muscade = document.querySelector("#muscade");
 let conté = document.querySelector("#conté");
 let persil = document.querySelector("#persil");
 
-() => {
+const cook = () => {
   if (
     riz.checked === true &&
     oignon.checked === true &&
@@ -71,6 +71,8 @@ let persil = document.querySelector("#persil");
     console.log("Hachis Parmentier!");
   }
 };
+
+cook();
 
 let lastScroll = 0;
 
